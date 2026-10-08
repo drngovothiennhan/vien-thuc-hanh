@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "overrides": [
+    {
+      "case_id": "noi-tieu-hoa-001",
+      "path": "investigations[3].name",
+      "original_sha256": "6831aaf6d0c573162fb9a3eccd9b95ac126532ce1ea9ae4194a87dc28b82493e",
+      "op": "move_to_after_submission",
+      "reason": "Tên chỉ định nêu trực tiếp chẩn đoán Hội chứng ruột kích thích; không còn dữ kiện thô có nghĩa nếu chỉ xóa tên chẩn đoán.",
+      "status": "CHUA_DUYET"
+    },
+    {
+      "case_id": "yhct-kham-101",
+      "path": "investigations[4].result",
+      "original_sha256": "d6686beee8d98905551888bf2f7959ff8da967004405a9f9a9bc78f32561e628",
+      "op": "move_to_after_submission",
+      "reason": "Toàn bộ kết quả là nhận định chỉ định dựa trên chẩn đoán Thống kinh; không có dữ kiện thô độc lập để giữ công khai.",
+      "status": "CHUA_DUYET"
+    },
+    {
+      "case_id": "noi-noi-tiet-003",
+      "path": "investigations[1].result",
+      "original_sha256": "40e85e2518e2a52e689660d1f417a40a67bec6318dec5d42f9665fd36b59bc3a",
+      "op": "remove_substring",
+      "remove_substring": ", phù hợp suy thượng thận nguyên phát",
+      "reason": "Giữ dữ kiện thô 'Tăng.' và chỉ xóa diễn giải nêu trực tiếp chẩn đoán.",
+      "status": "CHUA_DUYET"
+    },
+    {
+      "case_id": "noi-co-xuong-khop-002",
+      "path": "investigations[2].result",
+      "original_sha256": "e4f784220b61cf3e6576a5a15cda6f563efe68a0fc86441765b78fdf08bcdeb1",
+      "op": "remove_substring",
+      "remove_substring": " nhưng không dùng đơn độc để xác định cơn gout cấp",
+      "reason": "Giữ dữ kiện thô 'Có thể tăng.' và chỉ xóa diễn giải nêu trực tiếp chẩn đoán.",
+      "status": "CHUA_DUYET"
+    }
+  ]
+}
