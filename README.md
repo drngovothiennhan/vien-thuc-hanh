@@ -6,7 +6,7 @@ Khu thực hành của HIU TMC, gồm ba khu tách riêng để nâng cấp đ�
 2. **Học cận lâm sàng** — Phòng Cận Lâm Sàng (repo này, giai đoạn đầu).
 3. **Trực bệnh viện** — mô phỏng trực.
 
-Viện Thực Hành thuộc HIU TMC (hiutmc.com), không thuộc Game Hub. Về sau có thể tách thành ứng dụng riêng.
+Viện Thực Hành là app ngang hàng với GameHub, cùng nằm dưới HIU TMC (hiutmc.com). Dữ liệu và đăng nhập dùng chung ở tầng HIU TMC. Xem `docs/adr/ADR-004-vien-ngang-hang-hiutmc.md`.
 
 ## Trạng thái hiện tại
 
